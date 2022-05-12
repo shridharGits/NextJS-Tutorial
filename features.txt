@@ -1,0 +1,26 @@
+Features:
+# Server side rendering
+ - preparing content on server-side instead of client side
+ - automatic page pre rendering, great for seo
+ - fetch data on server and render finished pages 
+ - react is a server side, thats why it sends the empty html page to the use ( react has a feature to add serverside rendering but its tricky)
+
+# File-Based Routing
+ - define pages and routes with files and folder instead of code
+ - less code, less work, highly understandable
+
+# Fullstack capabilities
+ - easily add (server-side) backend code
+ - storing data, getting data, authentication can be added to your react projects
+
+
+# Tutorial
+To create routes
+just create a file with route name in 'pages' folder
+- suppose to create /news route, create news.js
+to create nested routes like news/specific-news
+- create news folder and add [newsId].js file to it, [ ] this is identifier in nextjs through which we can create dynamic routes
+
+<Link> Tag is used to prevent reloading of page again and again, a tag reload the page
+Link tag is the real essence of react and next;
+Link tag loads the required component without fetching new html page
